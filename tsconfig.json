@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2016", /* Define a versão do JavaScript a ser emitida. */
+    "module": "commonjs", /* Define o sistema de módulos a ser usado. */
+    "outDir": "./dist", /* Diretório de saída para os arquivos compilados. */
+    "rootDir": "./src", /* Diretório raiz para os arquivos de origem. */
+    "strict": true, /* Ativa todas as opções de verificação estrita. */
+    "esModuleInterop": true, /* Facilita a importação de módulos CommonJS. */
+    "forceConsistentCasingInFileNames": true, /* Garante que o casing seja consistente em nomes de arquivos. */
+    "skipLibCheck": true, /* Ignora verificação de tipo em arquivos .d.ts. */
+    "noEmitOnError": true, /* Não emite arquivos se houver erros de tipo. */
+    "declaration": true, /* Gera arquivos .d.ts a partir dos arquivos TypeScript. */
+    "sourceMap": true, /* Gera arquivos de mapa de origem para depuração. */
+    "experimentalDecorators": true, /* Habilita suporte para decoradores experimentais. */
+    "emitDecoratorMetadata": true, /* Emite metadados de design para declarações decoradas. */
+    "lib": [
+      "es2016",
+      "dom"
+    ], /* Define as bibliotecas incluídas. */
+    "resolveJsonModule": true, /* Permite importar arquivos JSON. */
+    "skipDefaultLibCheck": true /* Ignora verificação de tipo em arquivos de biblioteca padrão. */
+  },
+  "include": [
+    "src/**/*"
+  ], /* Inclui todos os arquivos TypeScript dentro do diretório src. */
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ] /* Exclui o diretório node_modules e arquivos de teste. */
+}
